@@ -1,0 +1,7 @@
+name = awesome
+description = This is a sub-theme of theme Bartik, made by Vince for the web site example.com (red, responsive).
+core = 7.x
+base theme = bartik
+
+stylesheets[all][] = css/normalize.css
+stylesheets[all][] = css/style.css

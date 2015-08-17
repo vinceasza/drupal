@@ -1,0 +1,18 @@
+name = Basic Theme
+description = Custom theme for my site
+core = 7.x
+engine = phptemplate
+
+regions[header] = Header
+regions[feature] = Feature
+regions[latestblogs] = LatestBlogs
+regions[content] = Content
+regions[signup] = Signup
+regions[footer] = Footer
+
+stylesheets[all][] = css/normalize.css
+stylesheets[all][] = css/style.css
+stylesheets[print][] = css/print.css
+
+features[] = name
+features[] = main_menu

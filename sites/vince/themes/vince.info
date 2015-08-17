@@ -1,0 +1,6 @@
+name = vince
+description = This is a sub-theme of theme \stark, made by John for the web site example.com (red, responsive).
+core = 7.x
+base theme = stark
+
+stylesheets[all][] = css/style.css

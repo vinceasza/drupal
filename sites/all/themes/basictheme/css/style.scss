@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul.tabs {
+  margin-top: 100px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+
+
+#header {
+  height: 70px;
+  width: 100%;
+  float: left;
+  background-color: rgba(0,0,0,0.8);
+  .logo {
+    width: 50%;
+    float: left;
+    h1 {
+      font-size: 30px;
+      text-transform: uppercase;
+      color: white;
+    }
+  }
+  .main-menu {
+    width: 50%;
+    float: left;
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      float: right;
+      li {
+        padding: 0;
+        float: left;
+        margin: 23px 0 0 15px;
+        list-style-type: none;
+        list-style-image: none;
+        a {
+          color: #fff;
+          background-color: tomato;
+          text-decoration: none;
+          padding: 5px 15px;
+          font-size: 18px;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}
+
+.page-node-11 #feature {
+  background-image: url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQCY-XRCyQOauC9wdWa4ZxgQAnN4PdxJ79DvkHcfwynB8p4PdHz2V16_9fz');
+}
+
+.page-node-17 #feature {
+  background-image: url('http://www.hdwallpapersos.com/wp-content/uploads/2015/02/free-blue-background-hd-wallpapers.jpg');
+}
+
+#feature {
+  float: left;
+  width: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  p {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 50px;
+  }
+}
+
+
+
+#latest-blogs {
+  float: left;
+  background-color: tomato;
+  width: 100%;
+  padding: 50px 0;
+}
+
+.this-is-a-view > div {
+  background-color: #fff;
+  padding: 15px 10px;
+  width: 32%;
+  float: left;
+  margin-right: 2%;
+  margin-top: 30px;
+  img {
+    width: 100%;
+    height: 200px;
+  }
+
+
+  a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 18px;
+    letter-spacing: 0.1px;
+    display: block;
+    height: 60px;
+  }
+}
+
+.this-is-a-view > div:nth-of-type(3n){
+  float: right;
+  margin-right: 0;
+}
+
+
+
+#signup {
+  float: left;
+  width: 100%;
+  height: 400px;
+  background-image: url('http://www.menucool.com/slider/prod/image-slider-2.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.region-signup {
+  width: 50%;
+  float: right;
+  padding: 30px 0;
+}
+
+
+.blog-title {
+  height: 300px;
+  width: 100%;
+  float: left;
+}
+#content {
+  float: left;
+  width: 100%;
+}
